@@ -1,0 +1,15 @@
+/target/
+/public/wasm/
+/hobo/target/
+/Cargo.lock
+/hobo/Cargo.lock
+/layout/
+/Influencer Images/
+/hobo/book/
+/db/
+/ninja-dump/
+/gareths-handwriting/
+*.jpg
+*.png
+*.svg
+/chrome-user-dir/

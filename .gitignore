@@ -1,0 +1,8 @@
+/target/
+/public/wasm/
+/db
+/buffer
+.idea*
+/server/TestCredentials.toml
+/layout/_pgbackup/
+/chrome-user-dir/

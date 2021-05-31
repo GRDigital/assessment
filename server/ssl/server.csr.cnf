@@ -1,0 +1,19 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+distinguished_name = dn
+
+[dn]
+C=UK
+ST=Swansea
+L=Swansea
+O=GRDigital
+OU=IT
+emailAddress=awpteamoose@gmail.com
+CN = localhost
+
+[alt_names]
+DNS.1 = localhost
+DNS.2 = localtest.pw
+DNS.3 = www.localtest.pw

@@ -1,0 +1,16 @@
+[net]
+git-fetch-with-cli = true
+
+[target.x86_64-pc-windows-msvc]
+linker = "rust-lld"
+# Uncomment this if stack overflows, this however causes constant recompile
+# rustflags = [
+#     "-Ctarget-feature=+crt-static",
+#     "-C", "link-arg=/STACK:4194304",
+# ]
+[target.i686-pc-windows-msvc]
+linker = "rust-lld"
+# rustflags = [
+#     "-Ctarget-feature=+crt-static",
+#     "-C", "link-arg=/STACK:4194304",
+# ]

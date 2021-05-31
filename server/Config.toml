@@ -1,0 +1,6 @@
+port = "443"
+salt = "salt"
+
+[ssl]
+cert = "server/ssl/server.crt"
+key = "server/ssl/server.key"
