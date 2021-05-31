@@ -1,0 +1,8 @@
+* create an input field and two buttons
+* one button should perform a youtube api call to get title, views, duration and display it on the page
+	* https://developers.google.com/youtube/v3/docs/videos/list
+	* https://insomnia.rest
+	* we can provide an API key in interest of saving time
+* the other button should download the youtube video onto the server
+	* https://github.com/ytdl-org/youtube-dl
+	* `youtube-dl -g <URL>` would dump two urls - one audio, one video
